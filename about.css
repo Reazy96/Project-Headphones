@@ -1,0 +1,107 @@
+@font-face {
+  font-family: worksans;
+  src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: worksans;
+}
+
+.wrapper {
+  background-color: #2e2e2e;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh 2vw;
+  margin-bottom: 30vh;
+  position: fixed;
+  width: 99vw;
+}
+
+.links a {
+  color: #867772;
+  font-size: 2.6rem;
+  padding-left: 1.7vw;
+}
+
+aside a {
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  color: #867772;
+  display: flex;
+  align-items: center;
+}
+
+aside a::before {
+  content: "◦";
+  font-size: 7rem;
+  padding-right: 50px;
+  margin-left: 1.5vw;
+}
+
+aside {
+  position: fixed;
+  left: 0.8vw;
+  top: 20vh;
+}
+
+aside div {
+  border-left: 1px solid #867772;
+  height: 5vh;
+  margin-left: 2.05vw;
+}
+
+h1 {
+  margin-left: 40vw;
+  padding-top: 20vh;
+  font-size: 4rem;
+  color: #ebccc2;
+  min-width: 13vw;
+  max-width: 13vw;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.img-box {
+  padding: 4%;
+  height: 200vh;
+}
+.img-box img {
+  min-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  padding: 10vh 20vw;
+}
+h2 {
+  font-size: 4rem;
+  color: #ebccc2;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.content p {
+  font-size: 2.8rem;
+  color: #867772;
+  text-transform: none;
+  padding-top: 5vh;
+  width: 20vw;
+  line-height: 50px;
+}
