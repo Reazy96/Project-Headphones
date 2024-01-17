@@ -28,6 +28,8 @@ nav {
   padding: 3vh 2vw;
   margin-bottom: 30vh;
   position: fixed;
+  right: 0;
+  top: 0;
   width: 99vw;
 }
 

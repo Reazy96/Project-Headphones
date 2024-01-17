@@ -29,7 +29,6 @@ nav {
   padding: 3vh 2vw;
   position: fixed;
   right: -0.4vw;
-  top: 0;
   width: 100vw;
 }
 
@@ -51,7 +50,7 @@ nav {
   height: 100vh;
 }
 .subwoofer {
-  background-image: url(./assets/img/section-experience-1.jpg);
+  background-image: url(./assets/img/section-voyager.jpg);
   background-repeat: no-repeat;
   background-position: left;
   grid-area: 1 / 1 / 2 / 3;
@@ -114,4 +113,10 @@ aside div {
   color: #867772;
   margin-left: 6vw;
   margin-right: 10vw;
+}
+span {
+  display: block;
+  margin-top: 40px;
+  color: #ebccc2;
+  font-weight: 200;
 }
